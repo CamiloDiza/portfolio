@@ -4,8 +4,8 @@ export default function Header() {
     return (
         <header className="bg-slate-50 shadow-lg lg:fixed lg:w-full lg:top-0">
             <nav className="container text-center flex place-content-between mx-auto py-4 px-28 max-lg:flex max-lg:flex-col max-lg:items-center">
-                <div >
-                    <a href="/" className="text-2xl flex space-x-1 max-lg:flex-col max-lg:items-center">
+                <div className="">
+                    <a href="/" className="text-2xl flex space-x-1 max-md:flex-col max-md:items-center">
                         <span className="text-slate-950 font-extrabold">Juan Camilo Zapata </span>
                         <div>
                             <span className="text-sky-500 font-bold">Web</span>
@@ -14,7 +14,7 @@ export default function Header() {
                     </a>
                 </div>
 
-                <div className="flex space-x-4 items-center text-xl">
+                <div className="flex space-x-4 items-center text-xl lg:ml-auto">
                     <NavLink link={ "home" } />
                     <NavLink link={ "about" } />
                     <NavLink link={ "projects" } />
